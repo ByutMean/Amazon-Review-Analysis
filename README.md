@@ -174,17 +174,17 @@ For codes related to the analysis, refer to the ```all_sentiment.ipynb``` and ``
 ## Result
 
 **All Reiview**
-| attribute                 | good | bad  | neutrality | score |
+| attribute                 | positive | negative | neutrality | score |
 | ----------                | ---- | ---- | ---------- | ----- |
 | hardware                  | 4643 | 1945 | 2344       | 51.98 |
 | software                  | 1534 | 586  | 1000       | 49.17 |
-| assemble                  | 1252 | 423  | 453        | 58.83 |
-| price                     | 1847 | 366  | 465        | 68.97 |
-| shipment                  | 314  | 108  | 151        | 54.80 |
-| noise                     | 544  | 381  | 340        | 43.00 |
-| durability                | 1379 | 387  | 313        | 66.33 |
-| service                   | 442  | 251  | 219        | 48.46 |
 | appearnace                | 147  | 76   | 85         | 47.73 |
+| durability                | 1379 | 387  | 313        | 66.33 |
+| assemble                  | 1252 | 423  | 453        | 58.83 |
+| noise  level              | 544  | 381  | 340        | 43.00 |
+| shipment                  | 314  | 108  | 151        | 54.80 |
+| service                   | 442  | 251  | 219        | 48.46 |
+| price                     | 1847 | 366  | 465        | 68.97 |
 
 
 <br>
