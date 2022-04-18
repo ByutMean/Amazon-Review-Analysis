@@ -1,6 +1,6 @@
 # Amazon-Review-Analysis
 
-In this project, we analyze online product reviews using network analysis and sentimental analysis.
+In this project, we analyze online product reviews using network analysis and sentiment analysis.
 
 ### purpose
 - We compare the differences between reviews recommended by several users and general reviews.
