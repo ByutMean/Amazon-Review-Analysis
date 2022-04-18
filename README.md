@@ -6,6 +6,8 @@ In this project, we analyze online product reviews using network analysis and se
 - We compare the differences between reviews recommended by several users and general reviews.
 - We classify the attributes of the review through n-gram and then conduct an analysis that scores by attributes through sentiment analysis to provide more objective results than the ratings provided by Amazon.
 
+<br>
+
 Team-project of 'Unstructured Data Analysis' lecture in 2020-2
 
 
@@ -27,7 +29,7 @@ You can access at [here](https://www.amazon.com/Sunny-Spin-Bikes-Health-Fitness-
 
 We implement a crawler using ```selenium.webdriver``` and ```BeautifulSoup``` to collect data from Amazon websites.
 
-Crawling feature
+**Crawling feature**
 | Data    | Type |
 | ------- | ---- |
 | title   | str  |
@@ -52,7 +54,7 @@ Online product reviews require a preprocessing process because they are unrefine
 6. Extraction of noun,verb,adjectives and adverbs after pos-tagging
 7. Rejoining Sentence Form
 
-Example
+**Example**
 
 ![preprocessing](/image/preprocessing.PNG)
 
@@ -70,7 +72,7 @@ You can check this content through ```Network.ipynb``` and ```to_gephi.csv```
 
 ### Network Analysis
 
-All review keyword network　　　　　　　
+**All review keyword network**　　　　　　
 
 ![network_all](/image/network_all.PNG) 　 
 
@@ -92,7 +94,7 @@ Select only reviews that have been recommended at least twice.
 <br>
 
 
-Helpful review keyword network
+**Helpful review keyword network**
 
 ![network_helpful](/image/network_heplful.PNG)
 
@@ -112,7 +114,7 @@ Helpful review keyword network
 
 After combining the attributes provided by Amazon and the attributes we defined through network analysis, categories were divided through segmentation.
 
-Categories
+**Categories**
 - Hardware
 - Software
 - Appearance
@@ -127,7 +129,7 @@ After measuring the similarity of keywords through word2vec, noun keywords were 
 
 <br>
 
-Attribute word dictionary
+**Attribute word dictionary**
 | Attribute         | keyword                                                                                                                                                                                                                                                                            |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Hardware    | seat, spin, pedal, chain, wheel, handlebar, bar, holder, flywheel, brake, tool, equipment, machine, frame, handle, spinner, knob, clip, hand, shape, size, cushion, metal, cage, plastic, silicone                                                                         |
@@ -149,7 +151,7 @@ We use a ```VADER``` for sentiment analysis.
 
 Two words before the keyword and six words after that are extracted and composed into sentences, and then emotional analysis of the sentence is conducted.
 
-Ex) annoying clicking **sound** coming right whell spindle make unusable 
+**Ex)** annoying clicking **sound** coming right whell spindle make unusable 
 -> Noise level : Negative.
 
 <br>
@@ -171,7 +173,7 @@ For codes related to the analysis, refer to the ```all_sentiment.ipynb``` and ``
 
 ## Result
 
-All Reiview
+**All Reiview**
 | attribute                 | good | bad  | neutrality | score |
 | ----------                | ---- | ---- | ---------- | ----- |
 | hardware                  | 4643 | 1945 | 2344       | 51.98 |
@@ -187,7 +189,7 @@ All Reiview
 
 <br>
 
-Helpful Review (recommended by many allows users)
+**Helpful Review (recommended by many allows users)**
 | attribute   | positive | negative | neutrality | score |
 | ----------- | -------- | -------- | ---------- | ----- |
 | hardware    | 1345     | 699      | 970        | 44.63 |
@@ -206,7 +208,7 @@ Helpful Review (recommended by many allows users)
 
 <!-- ![chart](/image/chart.PNG) -->
 
-Radial Chart Visualization
+**Radial Chart Visualization**
 
 ![chart2](/image/chart2.PNG)
 
@@ -220,13 +222,15 @@ The scores of reviews recommended more than once are clearly different from the 
 - Visualization by attribute allows the user to understand the product at a glance
 - Analysis of reviews recommended by many allows users to gain more objective and useful information than the average rating of existing systems
 
+<br>
+<br>
 
 ---
 
 
 
 
-## configuration
+## Configuration
 
 ```
 python
