@@ -76,13 +76,13 @@ You can check this content through ```Network.ipynb``` and ```to_gephi.csv```
 
 ![network_all](/image/network_all.PNG) 　 
 
-<span style='color:#00D8FF '>Assembly</span> : assembly, manual
+<span style='background-color:#00D8FF'>Assembly</span> : assembly, manual
 
-<span style='color:#1DDB16 '>Mechanical</span> : usb, motnitor
+<span style='color:#1DDB16'>Mechanical</span> : usb, motnitor
 
-<span style='color:#F361DC '>Durability</span> : solid, quiet
+<span style='color:#F361DC'>Durability</span> : solid, quiet
 
-<span style='color:#FF5E00 '>User Experience</span> : Motivation to use the product
+<span style='color:#FF5E00'>User Experience</span> : Motivation to use the product
 
 <br>
 
@@ -98,15 +98,15 @@ Select only reviews that have been recommended at least twice.
 
 ![network_helpful](/image/network_heplful.PNG)
 
-<span style='color:#00D8FF '>Assembly</span> : assembly, manual
+<span style='color:#00D8FF'>Assembly</span> : assembly, manual
 
-<span style='color:#1DDB16 '>Quality</span> : resistance, quality
+<span style='color:#1DDB16'>Quality</span> : resistance, quality
 
-<span style='color:#F361DC '>Durability & Practicality</span> : app, solid, control
+<span style='color:#F361DC'>Durability & Practicality</span> : app, solid, control
 
-<span style='color:#FF5E00 '>User Experience</span> : defective, bad, uncomfortable (<span style= 'color : red'> negative experience </span>)
+<span style='color:#FF5E00'>User Experience</span> : defective, bad, uncomfortable (<span style= 'color : red'>negative experience</span>)
 
-<span style='color:#664B00 '>Screen</span> : screen, monitor
+<span style='color:#664B00'>Screen</span> : screen, monitor
 
 <br>
 
@@ -160,7 +160,7 @@ Two words before the keyword and six words after that are extracted and composed
 Score = Positive / (Positive + Negative + neutrality)
 $$ -->
 
-Sentence sentiment are classified through ```Vader```, and scores are calculated for each attribute through the following fomula.
+Sentence sentiment are classified through ```VADER```, and scores are calculated for each attribute through the following fomula.
 
 ![score](/image/score.PNG)
 
