@@ -76,13 +76,13 @@ You can check this content through ```Network.ipynb``` and ```to_gephi.csv```
 
 ![network_all](/image/network_all.PNG) 　 
 
-<a style='color:#00D8FF '>Assembly</a> : assembly, manual
+<span style='color:#00D8FF '>Assembly</span> : assembly, manual
 
-<a style='color:#1DDB16 '>Mechanical</a> : usb, motnitor
+<span style='color:#1DDB16 '>Mechanical</span> : usb, motnitor
 
-<a style='color:#F361DC '>Durability</a> : solid, quiet
+<span style='color:#F361DC '>Durability</span> : solid, quiet
 
-<a style='color:#FF5E00 '>User Experience</a> : Motivation to use the product
+<span style='color:#FF5E00 '>User Experience</span> : Motivation to use the product
 
 <br>
 
@@ -98,15 +98,15 @@ Select only reviews that have been recommended at least twice.
 
 ![network_helpful](/image/network_heplful.PNG)
 
-<a style='color:#00D8FF '>Assembly</a> : assembly, manual
+<span style='color:#00D8FF '>Assembly</span> : assembly, manual
 
-<a style='color:#1DDB16 '>Quality</a> : resistance, quality
+<span style='color:#1DDB16 '>Quality</span> : resistance, quality
 
-<a style='color:#F361DC '>Durability & Practicality</a> : app, solid, control
+<span style='color:#F361DC '>Durability & Practicality</span> : app, solid, control
 
-<a style='color:#FF5E00 '>User Experience</a> : defective, bad, uncomfortable (<a style= 'color : red'> negative experience </a>)
+<span style='color:#FF5E00 '>User Experience</span> : defective, bad, uncomfortable (<span style= 'color : red'> negative experience </span>)
 
-<a style='color:#664B00 '>Screen</a> : screen, monitor
+<span style='color:#664B00 '>Screen</span> : screen, monitor
 
 <br>
 
