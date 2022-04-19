@@ -9,7 +9,7 @@ In this project, we analyze online product reviews using network analysis and se
 <br>
 
 Team-project of 'Unstructured Data Analysis' lecture in 2020-2
-
+ 
 
 
 
