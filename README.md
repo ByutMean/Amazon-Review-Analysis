@@ -2,7 +2,7 @@
 
 In this project, we analyze online product reviews using network analysis and sentiment analysis.
 
-### purpose
+### Purpose
 - We compare the differences between reviews recommended by several users and general reviews.
 - We classify the attributes of the review through n-gram and then conduct an analysis that scores by attributes through sentiment analysis to provide more objective results than the ratings provided by Amazon.
 
@@ -76,7 +76,7 @@ You can check this content through ```Network.ipynb``` and ```to_gephi.csv```
 
 ![network_all](/image/network_all.PNG) 　 
 
-<span style='background-color:#00D8FF'>Assembly</span> : assembly, manual
+<span style='color:#00D8FF'>Assembly</span> : assembly, manual
 
 <span style='color:#1DDB16'>Mechanical</span> : usb, motnitor
 
@@ -85,6 +85,8 @@ You can check this content through ```Network.ipynb``` and ```to_gephi.csv```
 <span style='color:#FF5E00'>User Experience</span> : Motivation to use the product
 
 <br>
+<br>
+
 
 We compare with reviews that have been recommended over a certain number.
 
