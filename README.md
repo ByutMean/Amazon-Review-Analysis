@@ -112,7 +112,7 @@ Select only reviews that have been recommended at least twice.
 
 <br>
 
-### Attribute classification by keyword
+### Attribute classification by keyword 
 
 After combining the attributes provided by Amazon and the attributes we defined through network analysis, categories were divided through segmentation.
 
